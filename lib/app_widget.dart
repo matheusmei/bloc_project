@@ -13,6 +13,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
 
         primarySwatch: Colors.blue,
+        backgroundColor: Colors.black,
+        brightness: Brightness.dark
       ),
       home: const LandingPage(),
     );
