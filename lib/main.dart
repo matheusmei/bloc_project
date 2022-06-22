@@ -8,6 +8,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 void main() {
   runApp( BlocProvider<GameDataBloc>(
     create: (context) => GameDataBloc(GamesRepository()),
-    child: const MyApp(),
+    child:  MyApp(),
   ));
 }
